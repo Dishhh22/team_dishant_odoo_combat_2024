@@ -1,0 +1,317 @@
+<odoo>
+    <!-- Products for Bed Room Furniture -->
+    <record id="product_bed_room_queen_set" model="product.template">
+        <field name="name">Queen Bed Room Set</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">500.00</field>
+    </record>
+    <record id="product_bed_room_king_set" model="product.template">
+        <field name="name">King Bed Room Set</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">750.00</field>
+    </record>
+    <record id="product_bed_room_night_stand_black" model="product.template">
+        <field name="name">Night Stand (Black)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">120.00</field>
+    </record>
+    <record id="product_bed_room_night_stand_white" model="product.template">
+        <field name="name">Night Stand (White)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">120.00</field>
+    </record>
+    <record id="product_bed_room_dresser" model="product.template">
+        <field name="name">Bed Room Dresser</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">350.00</field>
+    </record>
+    <record id="product_bed_room_wardrobe" model="product.template">
+        <field name="name">Bed Room Wardrobe</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">600.00</field>
+    </record>
+    <record id="product_bed_room_mirror" model="product.template">
+        <field name="name">Bed Room Mirror</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">150.00</field>
+    </record>
+    <record id="product_bed_room_queen_bed_frame" model="product.template">
+        <field name="name">Queen Size Bed Frame (Walnut)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">350.00</field>
+    </record>
+    <record id="product_bed_room_dresser_oak" model="product.template">
+        <field name="name">6-Drawer Dresser (Oak)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">280.00</field>
+    </record>
+    <record id="product_bed_room_nightstand_set" model="product.template">
+        <field name="name">Set of 2 Nightstands (White)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">150.00</field>
+    </record>
+    <record id="product_bed_room_king_mattress" model="product.template">
+        <field name="name">King Size Memory Foam Mattress</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">450.00</field>
+    </record>
+    <record id="product_bed_room_wardrobe_mirrored" model="product.template">
+        <field name="name">Mirrored Sliding Door Wardrobe</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_bed_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">400.00</field>
+    </record>
+
+    <!-- Products for Dining Room Furniture -->
+    <record id="product_dining_room_table_set" model="product.template">
+        <field name="name">Dining Table with 6 Chairs (Cherry Wood)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">650.00</field>
+    </record>
+    <record id="product_dining_room_buffet" model="product.template">
+        <field name="name">Dining Room Buffet (Espresso)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">320.00</field>
+    </record>
+    <record id="product_dining_room_bar_cart" model="product.template">
+        <field name="name">Rolling Bar Cart (Gold)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">120.00</field>
+    </record>
+    <record id="product_dining_room_china_cabinet" model="product.template">
+        <field name="name">Glass-Front China Cabinet (Mahogany)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">380.00</field>
+    </record>
+    <record id="product_dining_room_extendable_table" model="product.template">
+        <field name="name">Extendable Dining Table (Oak, Seats 4-8)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">420.00</field>
+    </record>
+    <record id="product_dining_room_chair_set_leather" model="product.template">
+        <field name="name">Dining Chair Set (Leather)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">400.00</field>
+    </record>
+    <record id="product_dining_room_chair_set_fabric" model="product.template">
+        <field name="name">Dining Chair Set (Fabric)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">350.00</field>
+    </record>
+    <record id="product_dining_room_sideboard" model="product.template">
+        <field name="name">Dining Room Sideboard</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">600.00</field>
+    </record>
+    <record id="product_dining_room_cabinet" model="product.template">
+        <field name="name">Dining Room Cabinet</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">700.00</field>
+    </record>
+    <record id="product_dining_room_buffet" model="product.template">
+        <field name="name">Dining Room Buffet</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_dining_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">800.00</field>
+    </record>
+
+    <!-- Products for Living Room Furniture -->
+    <record id="product_living_room_sofa" model="product.template">
+        <field name="name">Living Room Sofa</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">700.00</field>
+    </record>
+    <record id="product_living_room_coffee_table_glass" model="product.template">
+        <field name="name">Coffee Table (Glass)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">200.00</field>
+    </record>
+    <record id="product_living_room_coffee_table_wood" model="product.template">
+        <field name="name">Coffee Table (Wood)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">250.00</field>
+    </record>
+    <record id="product_living_room_tv_stand" model="product.template">
+        <field name="name">TV Stand</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">300.00</field>
+    </record>
+    <record id="product_living_room_bookshelf" model="product.template">
+        <field name="name">Living Room Bookshelf</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">350.00</field>
+    </record>
+    <record id="product_living_room_recliner" model="product.template">
+        <field name="name">Living Room Recliner</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">400.00</field>
+    </record>
+    <record id="product_living_room_lamp" model="product.template">
+        <field name="name">Living Room Lamp</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">150.00</field>
+    </record>
+    <record id="product_living_room_rug" model="product.template">
+        <field name="name">Living Room Rug</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">200.00</field>
+    </record>
+    <record id="product_living_room_sectional_sofa" model="product.template">
+        <field name="name">L-Shaped Sectional Sofa (Gray)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">750.00</field>
+    </record>
+    <record id="product_living_room_coffee_table" model="product.template">
+        <field name="name">Modern Coffee Table (Glass Top)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">180.00</field>
+    </record>
+    <record id="product_living_room_tv_stand" model="product.template">
+        <field name="name">TV Stand with Storage (65 inch, Black)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">250.00</field>
+    </record>
+    <record id="product_living_room_recliner" model="product.template">
+        <field name="name">Leather Recliner Chair (Brown)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">300.00</field>
+    </record>
+    <record id="product_living_room_entertainment_center" model="product.template">
+        <field name="name">Wall-Mounted Entertainment Center</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_living_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">550.00</field>
+    </record>
+
+    <!-- Products for Study Room Furniture -->
+    <record id="product_study_room_desk" model="product.template">
+        <field name="name">Study Room Desk</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">250.00</field>
+    </record>
+    <record id="product_study_room_bookshelf" model="product.template">
+        <field name="name">Bookshelf</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">150.00</field>
+    </record>
+    <record id="product_study_room_office_chair_black" model="product.template">
+        <field name="name">Office Chair (Black)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">100.00</field>
+    </record>
+    <record id="product_study_room_office_chair_white" model="product.template">
+        <field name="name">Office Chair (White)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">100.00</field>
+    </record>
+    <record id="product_study_room_desk" model="product.template">
+        <field name="name">Large Writing Desk (Maple)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">220.00</field>
+    </record>
+    <record id="product_study_room_bookcase" model="product.template">
+        <field name="name">5-Shelf Bookcase (Dark Brown)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">180.00</field>
+    </record>
+    <record id="product_study_room_ergonomic_chair" model="product.template">
+        <field name="name">Ergonomic Office Chair (Black Mesh)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">150.00</field>
+    </record>
+    <record id="product_study_room_filing_cabinet" model="product.template">
+        <field name="name">3-Drawer Filing Cabinet (Metal, Gray)</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">100.00</field>
+    </record>
+    <record id="product_study_room_desk_lamp" model="product.template">
+        <field name="name">LED Desk Lamp with USB Charging Port</field>
+        <field name="public_categ_ids" eval="[(6,0,[ref('furniture_renting_system.category_study_room_furniture_rent')])]"/>
+        <field name="is_published">True</field>
+        <field name="rent_ok">True</field>
+        <field name="list_price">40.00</field>
+    </record>
+</odoo>

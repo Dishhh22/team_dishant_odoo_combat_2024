@@ -1,0 +1,21 @@
+.breadcrumbs-container {
+    margin-bottom: 20px;
+}
+
+.breadcrumbs-delimiter svg {
+    vertical-align: middle;
+}
+.card{
+ border:none;
+}
+.card-img-top{
+ height:256px;
+}
+.card-title a {
+    color: #464646;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}

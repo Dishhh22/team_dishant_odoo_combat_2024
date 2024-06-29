@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!-- Main Category -->
+        <record id="category_appliances_furniture" model="product.public.category">
+            <field name="name">Appliances &amp; Furniture</field>
+            <field name="sequence">26</field>
+        </record>
+
+        <!-- Subcategories -->
+        <record id="category_bed_room_furniture_rent" model="product.public.category">
+            <field name="name">Bed Room Furniture</field>
+            <field name="parent_id" ref="category_appliances_furniture"/>
+        </record>
+
+        <record id="category_dining_room_furniture_rent" model="product.public.category">
+            <field name="name">Dining Room Furniture</field>
+            <field name="parent_id" ref="category_appliances_furniture"/>
+        </record>
+
+        <record id="category_living_room_furniture_rent" model="product.public.category">
+            <field name="name">Living Room Furniture</field>
+            <field name="parent_id" ref="category_appliances_furniture"/>
+        </record>
+
+        <record id="category_study_room_furniture_rent" model="product.public.category">
+            <field name="name">Study Room Furniture</field>
+            <field name="parent_id" ref="category_appliances_furniture"/>
+        </record>
+
+</odoo>

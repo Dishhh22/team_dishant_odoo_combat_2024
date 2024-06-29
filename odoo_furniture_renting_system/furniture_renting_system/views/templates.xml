@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="appliances_and_furniture_for_rent_template" name="Appliances &amp; Furniture for Rent">
+        <t t-call="website.layout">
+            <div class="container">
+                <nav class="breadcrumbs-container mt-3" aria-label="Breadcrumbs">
+                    <a href="/">Home</a>
+                    <span class="breadcrumbs-delimiter" aria-hidden="true">
+                        <svg style="display: inline !important;" aria-hidden="true" focusable="false"
+                             role="presentation" xmlns="http://www.w3.org/2000/svg" width="5" height="8"
+                             viewBox="0 0 8 8">
+                            <path fill="currentColor" d="M2 0L0.6 1.4 4.2 5 0.6 8.6 2 10l6-6-6-6z"/>
+                        </svg>
+                        Appliances &amp; Furniture for Rent
+                    </span>
+                </nav>
+
+                <h1 class="text-center mt-4">
+                    <strong>
+                        <span style="color: #464646;">Appliances &amp; Furniture for Rent</span>
+                    </strong>
+                </h1>
+
+                <div class="row mt-4">
+                    <t t-foreach="categories" t-as="category">
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <a t-att-href="category.get('url')">
+                                    <img t-att-src="category.get('image_url')" class="card-img-top"
+                                         t-att-alt="category.get('name')"/>
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">
+                                        <a t-att-href="category.get('url')" t-esc="category.get('name')"/>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+
+<!--    <template id="product_add_to_cart" inherit_id="website_sale.product" name="Custom Add to Cart">-->
+<!--        <xpath expr="//div[@id='add_to_cart_wrap']" position="replace">-->
+<!--            <div id="add_to_cart_wrap"-->
+<!--                 t-attf-class="{{'d-none' if combination_info['prevent_zero_price_sale'] else 'd-inline-flex'}} align-items-center mb-2 me-auto">-->
+<!--                <t t-if="product.qty_available > 0">-->
+<!--                    <a data-animation-selector=".o_wsale_product_images" role="button" id="add_to_cart"-->
+<!--                       t-attf-class="btn btn-primary js_check_product a-submit flex-grow-1 #{'btn-lg' if ctaSizeBig else ''}"-->
+<!--                       href="#">-->
+<!--                        <i class="fa fa-shopping-cart me-2"/>-->
+<!--                        <span style="font-weight: bold">ADD TO CART</span>-->
+<!--                    </a>-->
+<!--                </t>-->
+<!--                <t t-else="">-->
+<!--                    <div class="alert alert-warning" role="alert">-->
+<!--                        <i class="fa fa-exclamation-triangle me-2" aria-hidden="true"></i>-->
+<!--                        Unfortunately, this product is currently unavailable for rent. Please check back later or-->
+<!--                        contact our support team for more information.-->
+<!--                    </div>-->
+
+<!--                </t>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+</odoo>

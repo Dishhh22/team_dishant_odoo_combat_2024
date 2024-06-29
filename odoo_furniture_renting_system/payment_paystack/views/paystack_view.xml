@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <template id="cancelled_payment" name="Cancelled Payment Page">
+            <t t-call="website.layout">
+                <div id="wrap">
+                    <div class="container oe_website_sale py-2">
+                        <div class="row pt-64 pb-64">
+                            <div class="col-12">
+                                <h1>
+                                    <t t-if="message">
+                                        There is some error in the payment process your order has been cancelled.<br/>
+                                        Error: <t t-esc="message"/>
+                                    </t>
+                                    <t t-else="">Because of some error in the payment process your order has been cancelled.</t>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="paystack_acquirer_button">
+            <form action="/paystack/redirect/hack" method="post">
+                <input type="hidden" name="name" t-att-value="name" />
+                <input type="hidden" name="email" t-att-value="email" />
+                <input type="hidden" name="amount" t-att-value="amount" />
+                <input type="hidden" name="description" t-att-value="description" />
+                <input type="hidden" name="Authorization" t-att-value="Authorization" />
+                <input type="hidden" name="Content-Type" value="application/json" />
+                <input type="hidden" name="item_reference" t-att-value="item_reference"/>
+                <input type="hidden" name="paystack_public_key" t-att-value="paystack_public_key"/>
+                <input type="hidden" name="return_url" t-att-value="return_url"/>
+                <input type="hidden" name="paystack_wizard" t-att-value="paystack_wizard"/>
+            </form>
+        </template>
+
+    </data>
+</odoo>
